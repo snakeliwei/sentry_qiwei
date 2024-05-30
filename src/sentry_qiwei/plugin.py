@@ -50,7 +50,7 @@ class QiWeiPlugin(NotificationPlugin):
         data = {
             "msgtype": "markdown",
             "markdown": {
-                "content": u'<font color=\"warning\">#### {title}</font> \n \n > <font color=\"comment\">{message}</font> \n \n > <font color=\"comment\">[更多详细信息]({url}</font>'.format(
+                "content": u'#### <font color=\"warning\">{title}</font> \n > <font color=\"comment\">{message}</font> \n > [更多详细信息]({url})'.format(
                     title=error_title,
                     message=event.message,
                     url=u'{url}events/{id}/'.format(
