@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 NAME = 'sentry-qiwei'
 AUTHOR = 'snakeliwei'
 EMAIL = 'snakeliwei@gmail.com'
-VERSION = '1.0.2'
+VERSION = '1.0.4'
 DESCRIPTION = 'sentry extension which can send error to qiwei.'
 URL = 'https://github.com/snakeliwei/sentry_qiwei'
 LICENSE = 'GNU'
