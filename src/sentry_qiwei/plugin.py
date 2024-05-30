@@ -10,7 +10,7 @@ from sentry.plugins.bases.notify import NotificationPlugin
 QI_WEI_API = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={key}'
 
 
-class qiweiPlugin(NotificationPlugin):
+class QiWeiPlugin(NotificationPlugin):
     author = 'snakeliwei'
     author_url = 'https://github.com/snakeliwei/sentry_qiwei'
     description = 'sentry extension which can send error to qiwei'
